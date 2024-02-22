@@ -1,4 +1,4 @@
-// FUNCTINALITY STARTS HERE......
+// FUNCTIONALITY STARTS HERE......
 document.addEventListener('DOMContentLoaded', () => {
     nextButton.classList.add('hide');
   });
@@ -55,6 +55,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         button.addEventListener('click', () => selectAnswer(button));
         answerButtonsElement.appendChild(button);
+        button.style.backgroundColor = '';
+        button.style.padding = '13px';
+        button.style.borderRadius = '5px';
     });
   }
   
